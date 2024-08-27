@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&display=swap');
+
+:root {
+    --vermelho: #be253f;
+    --fonte-primaria: 'Lato', sans-serif;
+    --fonte-titulo: 'Pacifico', cursive;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffead4;
+    overflow-x: hidden;
+}
+
+h1, h2 {
+    color: var(--vermelho);
+    font-family: var(--fonte-titulo);
+    text-align: center;
+}
+
+p {
+    color: #282828;
+    font-family: var(--fonte-primaria);
+}
+
+img {
+    width: 100%
+}
